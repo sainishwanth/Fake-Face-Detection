@@ -50,6 +50,6 @@ python3 main.py
 Load Image -> Load Model -> Run
 
 ## Results
-![Confusion Matrix](images/readme/Screenshot 2023-09-24 at 6.25.55 PM.png)
+![Confusion Matrix](images/readme/confusion.png)
 <br>
-![Classification Report](images/readme/Screenshot 2023-09-24 at 6.26.12 PM.png)
+![Classification Report](images/readme/classification.png)
