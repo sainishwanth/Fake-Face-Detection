@@ -6,7 +6,7 @@ Basic Discriminator Built using CNN in order to detect face faces. It can be cou
 
 Fake and Real Image dataset retreived from kaggle
 
-![https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces](Link)
+![Link](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces)
 
 ## Requirements
 
@@ -50,6 +50,8 @@ python3 main.py
 Load Image -> Load Model -> Run
 
 ## Results
+### Confusion Matrix
 ![Confusion Matrix](images/readme/confusion.png)
-<br>
+
+### Classiciation Report
 ![Classification Report](images/readme/classification.png)
