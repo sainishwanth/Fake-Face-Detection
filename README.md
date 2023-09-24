@@ -50,6 +50,10 @@ python3 main.py
 Load Image -> Load Model -> Run
 
 ## Results
+
+### Working Example
+![Working](images/readme/testing.png)
+
 ### Confusion Matrix
 ![Confusion Matrix](images/readme/confusion.png)
 

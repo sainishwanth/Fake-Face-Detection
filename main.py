@@ -34,12 +34,11 @@ def run_model():
         image = np.array(image)
         image = np.expand_dims(image, axis=0)
         prediction = loaded_model.predict(image)
+        print(prediction, prediction[0][0])
         if prediction[0][0] == 0:
             messagebox.showinfo("Prediction", "Fake")
-        elif prediction[0][0] == 1:
-            messagebox.showinfo("Predictio", "Real")
         else:
-            messagebox.showerror("Error", "Error")
+            messagebox.showinfo("Predictio", "Real")
     else:
         messagebox.showwarning("Warning", "No model loaded. Please load a model first.")
 
